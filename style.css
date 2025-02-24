@@ -3,3 +3,23 @@ body {
   height: 100%;
   margin: 0;
 }
+* {
+  text-align: center;
+}
+nav>a {
+  background-color: gray;
+}
+#details {
+  display:flex;
+  background-color: red;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#details>p {
+  display:flex;
+  flex-wrap: wrap;
+}
+#featured-property>p {
+  display: flex;
+  flex-wrap: wrap;
+}
