@@ -19,7 +19,11 @@ nav>a {
   display:flex;
   flex-wrap: wrap;
 }
-#featured-property>p {
+
+.additional-box-{
   display: flex;
-  flex-wrap: wrap;
+  align-self: center;
+  flex-direction: column;
+  width: 500px;
+  height: 300px;
 }
